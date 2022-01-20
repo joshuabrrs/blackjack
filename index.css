@@ -1,0 +1,24 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    font-size:1em;
+}
+.center {
+    text-align: center;
+    margin: auto;
+    padding: 500px 0;
+
+}
+
+#message-el {
+    font-style: italic;
+}
+
+button {
+    padding: 10px;
+    background-color: white;
+    width: 150px;
+    border-radius: 6px;
+}
