@@ -14,7 +14,6 @@ let cardsEl= document.getElementById("cards-el")
 let playerEl = document.getElementById("player-el")
 
 playerEl.textContent = player.name + ": $" + player.chips 
-console.log(playerEl.textContent)
 function getRandomCard() { 
     let randCard = Math.floor(Math.random() * 13) + 1
     if (randCard === 1) {
