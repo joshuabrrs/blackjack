@@ -8,14 +8,20 @@ body {
 .center {
     text-align: center;
     margin: auto;
-    padding: 500px 0;
+    padding: 20vh 0;
 
 }
 
 #message-el {
     font-style: italic;
 }
-
+#rules-el {
+    padding-top: 80px;
+    text-align: center;
+    margin: auto;
+    max-width: 300px;
+    font-weight: lighter;
+}
 button {
     padding: 10px;
     background-color: white;
